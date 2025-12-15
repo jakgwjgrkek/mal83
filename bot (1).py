@@ -29,7 +29,7 @@ USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
 )
-BOT_TOKEN = "bottoken"
+BOT_TOKEN = "8502733228:AAE4krvR7brJkiEJVI7r0cnXnOsCtCUrDHQ"
 DEFAULT_PRODUCT_ID = "443323084003"
 DEFAULT_QUANTITY = 1
 DEFAULT_SIZES = ["32", "30", "M", "L"]
