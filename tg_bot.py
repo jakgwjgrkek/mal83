@@ -9,10 +9,10 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 logging.basicConfig(level=logging.INFO)
 
 # ========= CONFIG =========
-BOT_TOKEN = "8220357229:AAFmcIIanZ0W4pzGviy3T1K264CzS8DgbUs"
+BOT_TOKEN = "8260830097:AAG8yYDN_kO1CsP1JMJ7YCkH-yyH-jzDey4"
 
 # Put your Telegram user ID here (the person who confirms payments)
-ADMIN_USER_IDS = [5632357881]  # <-- replace with your numeric Telegram ID
+ADMIN_USER_IDS = [7151798052]  # <-- replace with your numeric Telegram ID
 
 # Local payment details (shown to buyers)
 LOCAL_PAYMENT_TEXT = """
@@ -20,7 +20,7 @@ LOCAL_PAYMENT_TEXT = """
 
 Please pay ₹80 to:
 
-• UPI ID: 7575025625@slc
+• UPI ID: ayushzidx@fam
   (or)
 • Bank: Your Bank Name
 • A/C No: 033325221776083
@@ -338,4 +338,5 @@ async def handle_text(message: types.Message):
 
 if __name__ == "__main__":
     print("Bot is running...")
+
     executor.start_polling(dp, skip_updates=True)
