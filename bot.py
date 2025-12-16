@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Config
-API_TOKEN = os.getenv('BOT_TOKEN')  # Railway variables se aayega
+API_TOKEN = os.getenv('8260830097:AAG8yYDN_kO1CsP1JMJ7YCkH-yyH-jzDey4')  # Railway variables se aayega
 
 if not API_TOKEN:
     raise ValueError("BOT_TOKEN not found! Set it in .env or Railway variables.")
