@@ -1,3 +1,0 @@
-aiogram==3.4.1
-selenium==4.15.2
-python-dotenv==1.0.0
